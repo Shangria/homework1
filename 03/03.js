@@ -1,8 +1,6 @@
 var a = 1;
 var b = -400;
 var c = 0.4;
-
-
 var min = a;
 if (b < min) {
     min = b
@@ -10,9 +8,7 @@ if (b < min) {
 if (c < min) {
     min = c;
 }
-
-
-alert(min);
+alert('min' + ' ' + min);
 
 // я бы использовала так
 // (https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Math/min)
