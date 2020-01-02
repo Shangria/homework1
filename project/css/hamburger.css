@@ -1,0 +1,15 @@
+.hamburger label {
+    display: block;
+}
+
+.hamburger ul {
+    display: none;
+}
+
+.hamburger .hamburger-state {
+    display: none;
+}
+
+.hamburger .hamburger-state:checked + ul {
+    display: block;
+}
